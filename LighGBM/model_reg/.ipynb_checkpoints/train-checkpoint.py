@@ -16,6 +16,7 @@ from sagemaker_jumpstart_tabular_script_utilities import model_info
 from sagemaker_jumpstart_tabular_script_utilities import utils
 from utils import configure_parameters
 import re
+from io import StringIO
 import matplotlib.pyplot as plt
 from collections import OrderedDict
 import mlflow
